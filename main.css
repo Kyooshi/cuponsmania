@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+header h2, header h1 a{
+    font-family: 'Silkscreen', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+h2, h3{
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+p{
+    font-family: 'Heebo', sans-serif;
+    display: block;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+
+}
+header{
+    background-color: #4a7503;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header li{
+    font-family: 'Nunito', sans-serif;
+    display: inline;
+    padding: 10px;
+    font-size: 24px;
+}
+
+header li a{
+    text-decoration:none;
+    color: #fff;
+}
+
+header li a:hover{
+    text-decoration:underline;
+}
+
+#about{
+    background-color: #dad5b0;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+#about .container{
+    display: flex;
+}
+
+#about .container img{
+    margin-right: 20px;
+}
+
+.sign{
+    height: 100px;
+}
+
+
+#cupons .articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article{
+    width: 30%;
+}
+
+.articles article a{
+    background-color: rgb(55, 128, 83);
+    color: #ffffff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Silkscreen', sans-serif;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+
+.logo, #cupons img
+{
+    height: 200px;
+}
+
+
+#cupons{
+    background-color: #c4dab0;
+}
+
+#contact, footer{
+    background-color: #4a7503;
+    color: #fff;
+}
+
+#contact .container{
+    display: block;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    background-color: rgb(55, 128, 83);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+form button:hover{
+    background-color: rgb(43, 184, 97);
+}
+
+
+#contact li{
+    display: inline-block;
+    padding: 10px;
+}
+
+#contact img{
+    height:35px;
+}
